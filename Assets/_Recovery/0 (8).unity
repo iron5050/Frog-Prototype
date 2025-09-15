@@ -1871,6 +1871,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a99ce737da938844b9e3e36d999b29bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ThirdPersonCamera
+  orientation: {fileID: 0}
+  player: {fileID: 0}
+  playerobj: {fileID: 0}
+  rb: {fileID: 0}
+  rotationspeed: 0
 --- !u!114 &1833908756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2275,8 +2280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfacc5854452c6049b8f1349b97c5b06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PLayer_Movement
-  speed: 5
-  rotationSpeed: 500
+  transform_player: {fileID: 1234584799}
 --- !u!54 &8093272511521252402
 Rigidbody:
   m_ObjectHideFlags: 0
