@@ -19,6 +19,7 @@ public class ThirdPersonCamera : MonoBehaviour
         Cursor.visible = false;
     }
 
+    //this makes the player mesh face direction of arrow keys based on where the camera is looking.
     private void Update()
     {
         //rotation orientation
