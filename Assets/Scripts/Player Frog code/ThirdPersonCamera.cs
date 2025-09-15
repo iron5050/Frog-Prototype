@@ -18,9 +18,9 @@ public class ThirdPersonCamera : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-
-
     }
+
+    //!!other better method was used for player mesh rotate-ing!!
 
     //this makes the player mesh face direction of arrow keys based on where the camera is looking.
     //private void Update()
