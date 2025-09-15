@@ -1686,6 +1686,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: -5630151704836100654, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
         Gain: 1
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -1697,6 +1699,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: -5630151704836100654, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
         Gain: -1
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -1708,6 +1712,8 @@ MonoBehaviour:
       Input:
         InputAction: {fileID: 5082991133974614888, guid: 1d6e640e716dc4ff6989b73d02023f2b, type: 3}
         Gain: -1
+        LegacyInput: 
+        LegacyGain: 1
         CancelDeltaTime: 0
       InputValue: 0
       Driver:
@@ -1987,12 +1993,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2013025224}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.148, z: 0.243}
-  m_LocalScale: {x: 0.41664, y: 0.41664, z: 0.41664}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.296, z: 0.486}
+  m_LocalScale: {x: 0.83328, y: 0.83328, z: 0.83328}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8093272511521252403}
+  m_Father: {fileID: 1234584799}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &2013025227
 MeshRenderer:
@@ -2179,7 +2185,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7720250698146137925, guid: b87a853fcb4ca85489dc8bc656279086, type: 3}
       insertIndex: -1
       addedObject: {fileID: 454997387}
-    - targetCorrespondingSourceObject: {fileID: 7720250698146137925, guid: b87a853fcb4ca85489dc8bc656279086, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 1156880459788427661, guid: b87a853fcb4ca85489dc8bc656279086, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2013025225}
     m_AddedComponents:
