@@ -1,7 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class InputHandler : MonoBehaviour
 {
+    public PlayerController Charactercontroller;
+
+    private InputAction _moveAction, _lookAction;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
